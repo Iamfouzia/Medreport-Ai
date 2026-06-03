@@ -1,2 +1,12 @@
 [theme]
 base = "dark"
+
+[client]
+showErrorDetails = false
+
+[logger]
+level = "error"
+
+[server]
+enableCORS = false
+headless = true
