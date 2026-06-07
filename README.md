@@ -1,4 +1,4 @@
-# MedReport AI  AI-Powered Medical Report Analysis Dashboard
+# AI-Powered Medical Report Analysis Dashboard
 
 > *Upload your report. Understand your health instantly.* 🏥
 
@@ -11,7 +11,7 @@
 
 ## Overview
 
-MedReport AI is an AI-powered medical report analysis dashboard. Upload a PDF or DOCX medical report and instantly get blood parameter visualization, severity assessment, and doctor referral suggestions — all powered by a multi-agent RAG pipeline.
+MedReport AI is an AI-powered medical report analysis dashboard. Upload a PDF or DOCX medical report and instantly get blood parameter visualization, severity assessment, and doctor referral suggestions  all powered by a multi-agent RAG pipeline.
 
 Most patients receive medical reports they cannot understand. MedReport AI bridges that gap.
 
@@ -25,14 +25,14 @@ Most patients receive medical reports they cannot understand. MedReport AI bridg
 
 ## Features
 
-- 📄 **Multi-format Report Upload** — Supports PDF, DOCX, and XLSX medical reports
-- 📊 **Blood Parameter Visualization** — 3 interactive Plotly charts: range comparison, bar chart, and status overview
-- 🤖 **Multi-Agent AI Pipeline** — 3 specialized agents: Report Agent, Severity Agent, and Referral Agent
-- 🔍 **RAG-Based Q&A** — Ask questions about your report using FAISS vector search + LLM
-- 🚨 **Severity Assessment** — Automatically classifies report as LOW, MEDIUM, or HIGH severity
-- 👨‍⚕️ **Doctor Referral Suggestions** — Recommends which specialist to visit and how urgently
-- 🩺 **General Medical Q&A** — Ask any medical question without uploading a report
-- 📈 **Token Usage Tracking** — Real-time input/output token monitoring
+- 📄 **Multi-format Report Upload**  Supports PDF, DOCX, and XLSX medical reports
+- 📊 **Blood Parameter Visualization**  3 interactive Plotly charts: range comparison, bar chart, and status overview
+- 🤖 **Multi-Agent AI Pipeline**  3 specialized agents: Report Agent, Severity Agent, and Referral Agent
+- 🔍 **RAG-Based Q&A**  Ask questions about your report using FAISS vector search + LLM
+- 🚨 **Severity Assessment**  Automatically classifies report as LOW, MEDIUM, or HIGH severity
+- 👨‍⚕️ **Doctor Referral Suggestions**  Recommends which specialist to visit and how urgently
+- 🩺 **General Medical Q&A**  Ask any medical question without uploading a report
+- 📈 **Token Usage Tracking**  Real-time input/output token monitoring
 
 ---
 
@@ -94,17 +94,17 @@ RAG Retrieval  ┌─────────────────┐
 
 The system uses **3 specialized LangChain agents**, each with its own prompt and responsibility:
 
-**Agent 1 — Report Agent**
+**Agent 1  Report Agent**
 → Answers user questions based on retrieved report context
 → Uses RAG: FAISS retrieval → Groq LLM
 → Returns plain English answers without assumptions beyond the report
 
-**Agent 2 — Severity Agent**
+**Agent 2  Severity Agent**
 → Reads extracted report context
 → Classifies severity as LOW, MEDIUM, or HIGH
 → Explains abnormal values in 2-3 simple sentences
 
-**Agent 3 — Referral Agent**
+**Agent 3  Referral Agent**
 →Takes report context + severity level as input
 → Suggests which specialist to visit
 → Recommends urgency level: immediate, within a week, or routine checkup
@@ -133,11 +133,11 @@ Each parameter is compared against standard reference ranges and flagged as Norm
 
 Three interactive Plotly charts are generated automatically:
 
-**Range Comparison Chart** — Diamond markers showing each value relative to its normal range
+**Range Comparison Chart**  Diamond markers showing each value relative to its normal range
 
-**Bar Chart** — Side-by-side values colored green (normal) or red (abnormal)
+**Bar Chart**  Side-by-side values colored green (normal) or red (abnormal)
 
-**Status Overview (Donut Chart)** — Summary of normal vs abnormal parameter count
+**Status Overview (Donut Chart)**  Summary of normal vs abnormal parameter count
 
 ---
 
