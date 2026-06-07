@@ -94,26 +94,21 @@ RAG Retrieval  ┌─────────────────┐
 
 The system uses **3 specialized LangChain agents**, each with its own prompt and responsibility:
 
-**Agent 1  Report Agent**
+**Agent 1: Report Agent**
 → Answers user questions based on retrieved report context
 → Uses RAG: FAISS retrieval 
 → Groq LLM
 → Returns plain English answers without assumptions beyond the report
 
-**Agent 2  Severity Agent**
+**Agent 2:  Severity Agent**
 → Reads extracted report context
-
 → Classifies severity as LOW, MEDIUM, or HIGH
-
 → Explains abnormal values in 2-3 simple sentences
 
-**Agent 3  Referral Agent**
+**Agent 3:  Referral Agent**
 →Takes report context + severity level as input
-
 → Suggests which specialist to visit
-
 → Recommends urgency level: immediate, within a week, or routine checkup
-
 → Provides home care tips in the meantime
 
 ---
