@@ -1,6 +1,6 @@
 # AI-Powered Medical Report Analysis Dashboard
 
-> *Upload your report. Understand your health instantly.* 🏥
+> *Upload your report. Understand your health instantly.* 
 
 [![Live Demo](https://img.shields.io/badge/Live%20Demo-Streamlit-red)](https://your-live-link-here)
 [![Python](https://img.shields.io/badge/Python-3.10-green)](https://python.org)
@@ -25,14 +25,14 @@ Most patients receive medical reports they cannot understand. MedReport AI bridg
 
 ## Features
 
-- 📄 **Multi-format Report Upload**  Supports PDF, DOCX, and XLSX medical reports
-- 📊 **Blood Parameter Visualization**  3 interactive Plotly charts: range comparison, bar chart, and status overview
-- 🤖 **Multi-Agent AI Pipeline**  3 specialized agents: Report Agent, Severity Agent, and Referral Agent
-- 🔍 **RAG-Based Q&A**  Ask questions about your report using FAISS vector search + LLM
-- 🚨 **Severity Assessment**  Automatically classifies report as LOW, MEDIUM, or HIGH severity
-- 👨‍⚕️ **Doctor Referral Suggestions**  Recommends which specialist to visit and how urgently
-- 🩺 **General Medical Q&A**  Ask any medical question without uploading a report
-- 📈 **Token Usage Tracking**  Real-time input/output token monitoring
+- 📄 **Multi-format Report Upload** →  Supports PDF, DOCX, and XLSX medical reports
+- 📊 **Blood Parameter Visualization** → 3 interactive Plotly charts: range comparison, bar chart, and status overview
+- 🤖 **Multi-Agent AI Pipeline** → 3 specialized agents: Report Agent, Severity Agent, and Referral Agent
+- 🔍 **RAG-Based Q&A** → Ask questions about your report using FAISS vector search + LLM
+- 🚨 **Severity Assessment** → Automatically classifies report as LOW, MEDIUM, or HIGH severity
+- 👨‍⚕️ **Doctor Referral Suggestions** → Recommends which specialist to visit and how urgently
+- 🩺 **General Medical Q&A** → Ask any medical question without uploading a report
+- 📈 **Token Usage Tracking** → Real-time input/output token monitoring
 
 ---
 
@@ -96,18 +96,24 @@ The system uses **3 specialized LangChain agents**, each with its own prompt and
 
 **Agent 1  Report Agent**
 → Answers user questions based on retrieved report context
-→ Uses RAG: FAISS retrieval → Groq LLM
+→ Uses RAG: FAISS retrieval 
+→ Groq LLM
 → Returns plain English answers without assumptions beyond the report
 
 **Agent 2  Severity Agent**
 → Reads extracted report context
+
 → Classifies severity as LOW, MEDIUM, or HIGH
+
 → Explains abnormal values in 2-3 simple sentences
 
 **Agent 3  Referral Agent**
 →Takes report context + severity level as input
+
 → Suggests which specialist to visit
+
 → Recommends urgency level: immediate, within a week, or routine checkup
+
 → Provides home care tips in the meantime
 
 ---
