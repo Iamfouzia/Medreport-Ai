@@ -193,6 +193,19 @@ App will open at `http://localhost:8501`
 5. View severity assessment and doctor referral in the results panel
 
 ---
+- ## Author
+
+**Fouzia Khan**
+
+[GitHub](https://github.com/Iamfouzia) · [LinkedIn](https://linkedin.com/in/fouzia-khan-35a73a258)
+
+
+
+## Screenshots
+<img width="1896" height="863" alt="med1" src="https://github.com/user-attachments/assets/5e6d7538-95e8-40b7-af46-691c795a7e23" />
+<img width="1880" height="844" alt="med (1232)" src="https://github.com/user-attachments/assets/e14a1fc1-0dc9-48b3-80dc-05f7acfda5f4" />
+<img width="1890" height="801" alt="dmed(1273)" src="https://github.com/user-attachments/assets/cbed5081-50b0-417e-bd83-ec1eec1a50bc" />
+<img width="1879" height="834" alt="med(1233)" src="https://github.com/user-attachments/assets/c326feb5-718f-4faa-802a-fadfe8ccb377" />
 
 ## Disclaimer
 
