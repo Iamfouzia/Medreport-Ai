@@ -3,8 +3,11 @@
 > *Upload your report. Understand your health instantly.* 
 
 [![Live Demo](https://img.shields.io/badge/Live%20Demo-Streamlit-red)](https://your-live-link-here)
+
 [![Python](https://img.shields.io/badge/Python-3.10-green)](https://python.org)
+
 [![Streamlit](https://img.shields.io/badge/Streamlit-1.32-red)](https://streamlit.io)
+
 [![LangChain](https://img.shields.io/badge/LangChain-0.1.20-blue)](https://langchain.com)
 
 ---
