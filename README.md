@@ -3,11 +3,8 @@
 > *Upload your report. Understand your health instantly.* 
 
 [![Live Demo](https://img.shields.io/badge/Live%20Demo-Streamlit-red)](https://your-live-link-here)
-
 [![Python](https://img.shields.io/badge/Python-3.10-green)](https://python.org)
-
 [![Streamlit](https://img.shields.io/badge/Streamlit-1.32-red)](https://streamlit.io)
-
 [![LangChain](https://img.shields.io/badge/LangChain-0.1.20-blue)](https://langchain.com)
 
 ---
@@ -206,8 +203,11 @@ App will open at `http://localhost:8501`
 
 ## Screenshots
 <img width="1896" height="863" alt="med1" src="https://github.com/user-attachments/assets/5e6d7538-95e8-40b7-af46-691c795a7e23" />
+
 <img width="1880" height="844" alt="med (1232)" src="https://github.com/user-attachments/assets/e14a1fc1-0dc9-48b3-80dc-05f7acfda5f4" />
+
 <img width="1890" height="801" alt="dmed(1273)" src="https://github.com/user-attachments/assets/cbed5081-50b0-417e-bd83-ec1eec1a50bc" />
+
 <img width="1879" height="834" alt="med(1233)" src="https://github.com/user-attachments/assets/c326feb5-718f-4faa-802a-fadfe8ccb377" />
 
 ## Disclaimer
